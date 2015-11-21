@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4115B755-1E86-4CF0-8E93-E7C7E4CAC710</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Acronyms</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B372658DBB96615B24FFE9359CA8A7C3A7E7F5C1</key>
+		<string>https://github.com/zorture/Acronym.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Acronyms.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B372658DBB96615B24FFE9359CA8A7C3A7E7F5C1</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zorture/Acronym.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B372658DBB96615B24FFE9359CA8A7C3A7E7F5C1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B372658DBB96615B24FFE9359CA8A7C3A7E7F5C1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Acronyms</string>
+		</dict>
+	</array>
+</dict>
+</plist>
