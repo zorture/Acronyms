@@ -14,14 +14,12 @@
 @interface AcronymTableViewCell()
 
 @property (weak, nonatomic) IBOutlet UICollectionView *acronymColView;
-@property (weak, nonatomic) IBOutlet UIScrollView *contentScrollView;
 @end
 
 @implementation AcronymTableViewCell
 
 - (void)awakeFromNib {
     // Initialization code
-    [self.contentView setTranslatesAutoresizingMaskIntoConstraints:YES]; 
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
