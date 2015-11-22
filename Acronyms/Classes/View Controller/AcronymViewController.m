@@ -11,6 +11,9 @@
 #import "AcronymDataModel.h"
 #import "MBProgressHUD.h"
 #import "AcronymTableViewCell.h"
+#import "AcronymHeaderView.h"
+
+static NSString *CellIdentifier = @"headerView";
 
 @interface AcronymViewController ()
 @property (nonatomic, strong) AcronymBizAdapter* acronymBA;
@@ -24,6 +27,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self.tableView registerClass:[AcronymHeaderView class] forHeaderFooterViewReuseIdentifier:CellIdentifier];
     self.acronymBA = [AcronymBizAdapter sharedAdapter];
 }
 
@@ -68,8 +73,9 @@
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
 
-    static NSString *CellIdentifier = @"headerView";
-    UITableViewCell *headerView = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
+    AcronymHeaderView *headerView = [tableView dequeueReusableHeaderFooterViewWithIdentifier:CellIdentifier];
+    [headerView.searchBar setDelegate:self];
     if (headerView == nil){
         [NSException raise:@"headerView == nil.." format:@"No cells with matching CellIdentifier loaded from your storyboard"];
     }

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AcronymViewController : UITableViewController
+@interface AcronymViewController : UITableViewController <UISearchBarDelegate>
 
 @end

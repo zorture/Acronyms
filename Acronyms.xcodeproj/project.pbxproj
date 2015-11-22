@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3E1A3D31BB32EC26ABEF4D50 /* libPods-Acronyms.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5956025BD05B45A4E5E6490 /* libPods-Acronyms.a */; };
+		B930E3CA1C026E9F00754B81 /* AcronymHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B930E3C91C026E9F00754B81 /* AcronymHeaderView.m */; };
+		B930E3CE1C02736800754B81 /* AcronymHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B930E3CC1C02736800754B81 /* AcronymHeaderView.xib */; };
 		B9C57A4C1BFE97CB00FFC189 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C57A461BFE97CB00FFC189 /* AppDelegate.m */; };
 		B9C57A501BFE9BD700FFC189 /* AcronymViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C57A4F1BFE9BD700FFC189 /* AcronymViewController.m */; };
 		B9C57A531BFEABA300FFC189 /* AcronymDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C57A521BFEABA300FFC189 /* AcronymDataModel.m */; };
@@ -33,6 +35,9 @@
 
 /* Begin PBXFileReference section */
 		91CC85B2CADB5BD3415A20EF /* Pods-Acronyms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acronyms.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Acronyms/Pods-Acronyms.debug.xcconfig"; sourceTree = "<group>"; };
+		B930E3C81C026E9F00754B81 /* AcronymHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcronymHeaderView.h; sourceTree = "<group>"; };
+		B930E3C91C026E9F00754B81 /* AcronymHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcronymHeaderView.m; sourceTree = "<group>"; };
+		B930E3CD1C02736800754B81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AcronymHeaderView.xib; sourceTree = "<group>"; };
 		B9C57A451BFE97CB00FFC189 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B9C57A461BFE97CB00FFC189 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B9C57A4E1BFE9BD700FFC189 /* AcronymViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcronymViewController.h; sourceTree = "<group>"; };
@@ -119,6 +124,8 @@
 		B9C57A491BFE97CB00FFC189 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B930E3C81C026E9F00754B81 /* AcronymHeaderView.h */,
+				B930E3C91C026E9F00754B81 /* AcronymHeaderView.m */,
 				B9C57A4E1BFE9BD700FFC189 /* AcronymViewController.h */,
 				B9C57A4F1BFE9BD700FFC189 /* AcronymViewController.m */,
 				B9FDB4D11BFFB9DE00CCC377 /* AcronymTableViewCell.h */,
@@ -161,6 +168,7 @@
 			children = (
 				B9C57A431BFE97CB00FFC189 /* Classes */,
 				B9DCC3F21BFE4C3900D53364 /* Main.storyboard */,
+				B930E3CC1C02736800754B81 /* AcronymHeaderView.xib */,
 				B9DCC3F51BFE4C3900D53364 /* Images.xcassets */,
 				B9DCC3F71BFE4C3900D53364 /* LaunchScreen.xib */,
 				B9DCC3E81BFE4C3900D53364 /* Supporting Files */,
@@ -289,6 +297,7 @@
 				B9DCC3F41BFE4C3900D53364 /* Main.storyboard in Resources */,
 				B9DCC3F91BFE4C3900D53364 /* LaunchScreen.xib in Resources */,
 				B9DCC3F61BFE4C3900D53364 /* Images.xcassets in Resources */,
+				B930E3CE1C02736800754B81 /* AcronymHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +366,7 @@
 				B9FDB4CE1BFEEF5E00CCC377 /* VariationDataModel.m in Sources */,
 				B9FDB4D31BFFB9DE00CCC377 /* AcronymTableViewCell.m in Sources */,
 				B9C57A571BFEB05100FFC189 /* AcronymBizAdapter.m in Sources */,
+				B930E3CA1C026E9F00754B81 /* AcronymHeaderView.m in Sources */,
 				B9C57A531BFEABA300FFC189 /* AcronymDataModel.m in Sources */,
 				B9C57A4C1BFE97CB00FFC189 /* AppDelegate.m in Sources */,
 				B9C57A501BFE9BD700FFC189 /* AcronymViewController.m in Sources */,
@@ -383,6 +393,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		B930E3CC1C02736800754B81 /* AcronymHeaderView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B930E3CD1C02736800754B81 /* Base */,
+			);
+			name = AcronymHeaderView.xib;
+			sourceTree = "<group>";
+		};
 		B9DCC3F21BFE4C3900D53364 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
