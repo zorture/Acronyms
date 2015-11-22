@@ -91,7 +91,7 @@
 
     if (self.expandCellPath != nil && indexPath.row == self.expandCellPath.row){
         AcronymDataModel* acronymDM = self.acronymMeaningArray[indexPath.row];
-        height += acronymDM.variationAr.count*30+15;
+        height += acronymDM.variationAr.count*30;
     }
     
     return height;
